@@ -17,7 +17,36 @@ homebrew_installed_packages:
   - iterm2
   - zsh
   - font-source-code-pro
+  - svn
   - zsh-history-substring-search
+  
+homebrew_uninstalled_packages:
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - go
+  - httpie
+  - libevent
+  - sqlite
+  - node
+  - nvm
+  - php
+  - cowsay
+  - readline
+  - wrk
+  
+homebrew_cask_uninstalled_apps:
+  - chromedriver
+  - dropbox
+  - handbrake
+  - licecap
+  - sequel-ace
+  - slack
+  - sublime-text
+  - transmit
+  - vagrant
 
 homebrew_taps:
   - homebrew/core
