@@ -1,0 +1,37 @@
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+homebrew_installed_packages:
+  - bash-completion
+  - git
+  - github/gh/gh
+  - gpg
+  - iperf
+  - mcrypt
+  - nmap
+  - ssh-copy-id
+  - openssl
+  - pv
+  - wget
+  - iterm2
+  - zsh
+  - font-source-code-pro
+  - zsh-history-substring-search
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
+
+configure_dock: true
+dockitems_remove:
+  - Messages
+  - Mail
+  - Maps
+  - FaceTime
+  - Launchpad
+  - TV
+  - Music
+  - Podcasts
+  - News
