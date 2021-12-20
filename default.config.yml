@@ -55,9 +55,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - wget
-  - iterm2
   - zsh
-  - font-source-code-pro
   - svn
   - zsh-history-substring-search
 
@@ -83,6 +81,10 @@ homebrew_cask_apps:
   - docker
   - firefox
   - google-chrome
+  - iterm2
+  - vscodium
+  - postman
+  - font-source-code-pro
 
 homebrew_cask_uninstalled_apps:
   - chromedriver
