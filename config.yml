@@ -6,6 +6,9 @@ homebrew_installed_packages:
   - bash-completion
   - git
   - github/gh/gh
+  - gettext
+  - libevent
+  - readline
   - gpg
   - iperf
   - mcrypt
@@ -22,19 +25,15 @@ homebrew_installed_packages:
   
 homebrew_uninstalled_packages:
   - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
+  - doxygen  
   - gifsicle
   - go
   - httpie
-  - libevent
   - sqlite
   - node
   - nvm
   - php
   - cowsay
-  - readline
   - wrk
   
 homebrew_cask_uninstalled_apps:
