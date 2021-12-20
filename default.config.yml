@@ -26,7 +26,7 @@ dockitems_persist:
     pos: 4
   - name: iTerm
     path: "/Applications/iTerm.app/"
-    pos: "end"
+    pos: -1
 
 configure_sudoers: false
 sudoers_custom_config: ''
