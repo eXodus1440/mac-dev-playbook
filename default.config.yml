@@ -21,6 +21,12 @@ dockitems_persist:
   - name: "Google Chrome"
     path: "/Applications/Google Chrome.app/"
     pos: 3
+  - name: Firefox
+    path: "/Applications/Firefox.app/"
+    pos: 4
+  - name: iTerm
+    path: "/Applications/iTerm.app/"
+    pos: "end"
 
 configure_sudoers: false
 sudoers_custom_config: ''
