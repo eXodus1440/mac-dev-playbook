@@ -24,6 +24,8 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: tkimball83.iterm2
+      tags: ['iterm2']
 
   tasks:
     - import_tasks: tasks/sudoers.yml
@@ -40,6 +42,10 @@
 
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
+
+    - import_tasks: tasks/iterm2.yml
+      when: configure_iterm2
+      tags: ['iterm2']
 
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
