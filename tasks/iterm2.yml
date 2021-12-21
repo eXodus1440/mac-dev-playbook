@@ -1,0 +1,17 @@
+---
+- name: Ensure iTerm2 path is as expected.
+  debug:
+    msg: "{{ iterm2_custom_path }} is the path."
+
+# - name: Ensure iTerm2 custom directories exist.
+#   file:
+#     path: "{{ item }}"
+#     state: directory
+#   loop:
+#     - "{{ iterm2_custom_path }}"
+
+# - name: Clone test repo
+#   ansible.builtin.git:
+#     repo: https://github.com/romkatv/powerlevel10k.git
+#     dest: "{{ iterm2_custom_path }}/themes/powerlevel10k"
+#     version: master
