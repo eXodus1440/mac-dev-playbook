@@ -161,7 +161,7 @@ mas_uninstalled_apps:
   - { id: 409203825, name: "Numbers" }
   - { id: 682658836, name: "GarageBand" }
 
-mas_email: "steven@bauer.com.au"
+mas_email: ""
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
