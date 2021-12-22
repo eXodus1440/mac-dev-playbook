@@ -130,7 +130,7 @@ homebrew_cask_apps:
   - postman
   - spotify
   - private-internet-access
-  - font-source-code-pro
+  #- font-source-code-pro
 
 homebrew_cask_uninstalled_apps: []
   # - chromedriver
