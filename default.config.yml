@@ -5,6 +5,8 @@ configure_dotfiles: true
 configure_terminal: false
 configure_osx: true
 
+env: work
+
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove:
@@ -14,12 +16,13 @@ dockitems_remove:
   - FaceTime
   - TV
   - Music
+  - Launchpad
   - Podcasts
   - News
 
 dockitems_persist: 
   - name: "Google Chrome"
-    path: "/Applications/Google%20Chrome.app/"
+    path: "/Applications/Google Chrome.app/"
     pos: 1
   - name: Firefox
     path: "/Applications/Firefox.app/"
@@ -34,20 +37,20 @@ dockitems_persist:
     path: "/Applications/iTerm.app/"
     pos: 30
   - name: "App Store"
-    path: "/System/Applications/App%20Store.app/"
+    path: "/System/Applications/App Store.app/"
     pos: 40
   - name: "System Preferences"
-    path: "/System/Applications/System%20Preferences.app/"
+    path: "/System/Applications/System Preferences.app/"
     pos: 50
 
   - name: "Applications"
     path: "/Applications/"
     pos: 1
   - name: "Documents"
-    path: "/Users/steve/Documents"
+    path: "~/Documents"
     pos: 2
   - name: "Downloads"
-    path: "/Users/steve/Downloads/"
+    path: "~/Downloads/"
     pos: 3
 
 configure_sudoers: false
@@ -72,11 +75,9 @@ homebrew_installed_packages:
   - autoconf
   - awscli
   - aws-shell
-  #- aws-sam-cli
   - bash-completion
   - git
   - github/gh/gh
-  #- svn
   - gettext
   - libevent
   - terraform
@@ -86,7 +87,6 @@ homebrew_installed_packages:
   - gpg
   - iperf
   - mcrypt
-  #- mas
   - nmap
   - ssh-copy-id
   - openssl
@@ -99,15 +99,6 @@ homebrew_installed_packages:
   - romkatv/powerlevel10k/powerlevel10k
 
 homebrew_uninstalled_packages: []
-  # - doxygen  
-  # - gifsicle
-  # - go
-  # - httpie
-  # - node
-  # - nvm
-  # - php
-  # - cowsay
-  # - wrk
 
 homebrew_taps:
   - homebrew/core
@@ -116,50 +107,20 @@ homebrew_taps:
   - aws/tap
 
 homebrew_cask_appdir: /Applications
-homebrew_cask_apps:
-  - amazon-chime
-  - amazon-workdocs
-  - amazon-workdocs-drive
-  - amazon-workspaces
-  - docker
-  - firefox
-  - google-chrome
-  - iterm2
-  - vscodium
-  - teamviewer
-  - postman
-  - spotify
-  - private-internet-access
-  #- font-source-code-pro
+homebrew_cask_apps: []
+# Specified in the env specific config - config.work.yml
 
 homebrew_cask_uninstalled_apps: []
-  # - chromedriver
-  # - dropbox
-  # - handbrake
-  # - licecap
-  # - sequel-ace
-  # - slack
-  # - sublime-text
-  # - transmit
-  # - vagrant
+# Specified in the env specific config - config.work.yml
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: true
 mas_upgrade_all_apps: true
-mas_installed_apps: 
-  - { id: 926036361,  name: "LastPass Password Manager" }
-  - { id: 1451685025, name: "WireGuard" }
-  - { id: 417375580, name: "BetterSnapTool" }
-  - { id: 571213070, name: "DaVinci Resolve" }
-  - { id: 823766827, name: "OneDrive" }
-  #- { id: 497799835, name: "Xcode" }
+mas_installed_apps: []
+# Specified in the env specific config - config.work.yml
 
-mas_uninstalled_apps:
-  - { id: 408981434, name: "iMovie" }
-  - { id: 409183694, name: "Keynote" }
-  - { id: 409201541, name: "Pages" }
-  - { id: 409203825, name: "Numbers" }
-  - { id: 682658836, name: "GarageBand" }
+mas_uninstalled_apps: []
+# Specified in the env specific config - config.work.yml
 
 mas_email: ""
 mas_password: ""
