@@ -1,5 +1,6 @@
 homebrew_cask_apps:
   # Base cask apps
+  - font-hack-nerd-font
   - docker
   - firefox
   - google-chrome
