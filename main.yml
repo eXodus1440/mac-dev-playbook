@@ -3,15 +3,14 @@
 
   vars_files:
     - default.config.yml
+    - "config.{{ env }}.yml"
     
-  vars_prompt:
-
-    - name: mas_email
-      prompt: What is your Mac App Store (mas) username?
-      private: no
-
-    - name: mas_password
-      prompt: What is your Mac App Store (mas) password?
+#  vars_prompt:
+#    - name: mas_email
+#      prompt: What is your Mac App Store (mas) username?
+#      private: no
+#    - name: mas_password
+#      prompt: What is your Mac App Store (mas) password?
 
   pre_tasks:
     - name: Include playbook configuration.
