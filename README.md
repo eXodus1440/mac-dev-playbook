@@ -9,10 +9,10 @@ This playbook installs and configures most of the software I use on my Mac for w
 ## Installation
 
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
-
-    1. If there's issues running `ansible` below, follow these steps: `softwareupdate --list`
-    2. `softwareupdate -i "Command Line Tools for Xcode-13.0"`
-    https://stackoverflow.com/questions/59887436/importerror-cannot-import-name-packagefinder
+    
+      1. If there's issues running `ansible` below, follow the steps [outlined here](https://stackoverflow.com/questions/59887436/importerror-cannot-import-name-packagefinder):
+      `softwareupdate --list`
+      2. Apply the update with: `softwareupdate -i "Command Line Tools for Xcode-13.0"`
     
   2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
 
