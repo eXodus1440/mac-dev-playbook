@@ -1,0 +1,37 @@
+homebrew_cask_apps:
+  # Base cask apps
+  - docker
+  - firefox
+  - google-chrome
+  - iterm2
+  - vscodium
+  - postman
+  - spotify
+  # Work cask apps
+  - amazon-chime
+  - amazon-workdocs
+  - amazon-workdocs-drive
+  - amazon-workspaces
+
+homebrew_cask_uninstalled_apps:
+  - teamviewer
+  - private-internet-access
+
+mas_installed_apps: 
+  # Base mas apps
+  - { id: 926036361,  name: "LastPass Password Manager" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 417375580, name: "BetterSnapTool" }
+  #- { id: 497799835, name: "Xcode" }
+  # Work mas apps
+  
+
+mas_uninstalled_apps:
+  # Base mas apps
+  - { id: 408981434, name: "iMovie" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 682658836, name: "GarageBand" }
+  # Work mas apps
+  - { id: 823766827, name: "OneDrive" }
