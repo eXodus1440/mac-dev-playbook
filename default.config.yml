@@ -82,7 +82,11 @@ homebrew_installed_packages:
   - libevent
   - terraform
   - kubectl
+  - kubectx
+  - kube-ps1
+  - k9s
   - helm
+  - stern
   - readline
   - gpg
   - iperf
@@ -94,6 +98,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - zsh
+  - zsh-autosuggestions
   - zsh-history-substring-search
   - zsh-syntax-highlighting
   - romkatv/powerlevel10k/powerlevel10k
