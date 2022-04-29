@@ -20,7 +20,7 @@ mas_installed_apps:
   - { id: 1451685025, name: "WireGuard" }
   - { id: 417375580, name: "BetterSnapTool" }
   #- { id: 497799835, name: "Xcode" }
-  # Work mas apps
+  # Personal mas apps
   - { id: 571213070, name: "DaVinci Resolve" }
   - { id: 823766827, name: "OneDrive" }
   
