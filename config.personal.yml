@@ -1,7 +1,6 @@
 homebrew_cask_apps:
   # Base cask apps
   - font-hack-nerd-font
-  - docker
   - firefox
   - google-chrome
   - iterm2
@@ -9,6 +8,7 @@ homebrew_cask_apps:
   - postman
   - spotify
   # Personal cask apps
+  - docker
   - teamviewer
   - private-internet-access
 
