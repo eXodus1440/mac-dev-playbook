@@ -86,6 +86,12 @@ Any variable can be overridden in `config.yml`; see the supporting roles' docume
 
 ### Running preconfigured set of overrides
 
-Work: `ansible-playbook main.yml -e env=work --ask-become-pass`
+Work, which is using the overrides from [config.work.yml](https://github.com/eXodus1440/mac-dev-playbook/blob/master/config.work.yml): 
 
-Personal: `ansible-playbook main.yml -e env=personal --ask-become-pass`
+`ansible-playbook main.yml -e env=work --ask-become-pass`
+
+
+
+Personal, which is using the overrides from [config.personal.yml](https://github.com/eXodus1440/mac-dev-playbook/blob/master/config.personal.yml): 
+
+`ansible-playbook main.yml -e env=personal --ask-become-pass`
