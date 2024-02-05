@@ -2,8 +2,8 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
   - name: geerlingguy.dotfiles
-  # - name: tkimball83.iterm2
-  - name: lwalley.iterm2
+  #- name: tkimball83.iterm2
+  #- name: lwalley.iterm2
 
 collections:
   - name: geerlingguy.mac
