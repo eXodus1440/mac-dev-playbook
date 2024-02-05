@@ -106,8 +106,8 @@ homebrew_installed_packages:
 homebrew_uninstalled_packages: []
 
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+  #- homebrew/core
+  #- homebrew/cask
   - homebrew/cask-fonts
   - aws/tap
 
