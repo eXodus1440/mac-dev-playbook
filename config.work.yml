@@ -20,7 +20,7 @@ homebrew_cask_uninstalled_apps:
 
 mas_installed_apps: 
   # Base mas apps
-  - { id: 926036361,  name: "LastPass Password Manager" }
+  #- { id: 926036361,  name: "LastPass Password Manager" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 417375580, name: "BetterSnapTool" }
   #- { id: 497799835, name: "Xcode" }
